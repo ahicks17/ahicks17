@@ -1,0 +1,46 @@
+#Body {
+    background-image: radial-gradient(blue,dodgerblue, floralwhite );
+    background-size: cover;
+  }
+  h1 {
+    text-align: center;
+    Color: black;
+font-size: 40px
+  }
+  p {
+    Color: black;
+    font-size: 40px
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 85px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: powderblue;
+}
+.active {
+    background-color: blue;
+    color: white;
+}
+#image {
+  display: block;
+  float: right;
+  height: 150px;
+  width: 200px;
+}
+#div {
+padding-bottom: 200px;
+}
