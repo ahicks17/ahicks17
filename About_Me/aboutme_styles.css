@@ -1,37 +1,54 @@
+.header {
+    background-color: none;
+    text-align: center;
+    padding: 60px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width:25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
 #Body {
     background-image: radial-gradient(blue,dodgerblue, floralwhite );
     background-size: cover;
   }
 h1 {
     text-align: Center;
-    Color: Black;
+    Color: black;
 font-size: 40px;
 }
-p {
-    Color: Black
-    font-size: 25px
+p,ul {
+    Color: black;
+    font-size: 25px;
 }
-#ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20;
-    overflow: hidden;
+.topnav {
+    overflow:hidden;
     background-color: dodgerblue;
 }
-#li {
-    float: left;
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align:center;
+padding: 20px 90px;
+text-decoration: none;
 }
-#li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 85px;
-    text-decoration: none;
-}
-#li a:hover {
+.topnav a:hover {
     background-color: powderblue;
-}
-.active {
-    background-color: blue;
-    color: white;
+    color: black;
 }
