@@ -24,14 +24,12 @@ font-size: 40px
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 50;
     overflow: hidden;
     background-color: blue;
 }
 
 li {
     float: left;
-    padding: 10px;
 }
 
 li a, .dropbtn {
