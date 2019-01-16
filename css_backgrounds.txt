@@ -1,0 +1,6 @@
+background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+
+background-image: radial-gradient(blue,dodgerblue, floralwhite );
+    background-size: cover;
+
